@@ -6,7 +6,7 @@ public class Atletas {
 	private int idade;
 	private int rA; // registro do atleta
 
-	public void atletasId(String nome, int idade, int rA) {
+	public static void atletasId(String nome, int idade, int rA) {
 		System.out.println("O nome do atleta é: " + nome);
 		System.out.println("A idade do atleta é: " + idade + " anos");
 		System.out.println("O registro do atleta é: " + rA);

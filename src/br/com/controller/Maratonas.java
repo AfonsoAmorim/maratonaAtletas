@@ -7,18 +7,13 @@ import br.com.entidades.Atletas;
 public class Maratonas {
 
 	public static void main(String[] args) {
-		Atletas atletaOne = new Atletas();
-		atletaOne.atletasId("David Goggins", 32, 5588);
-		
-		AcoesAtletas tipoCorrida = new AcoesAtletas();
-		tipoCorrida.maratonaA(100, 80, "Asfalto");
-		tipoCorrida.calcularTempoEstimado(100);
-		tipoCorrida.metaProximaSemana(100);
-		
-		
-		
-		
+		Atletas.atletasId("David Goggins", 32, 5599);
+
+		AcoesAtletas.maratonaA(100, 80, "Asfalto");
+		AcoesAtletas.calcularTempoEstimado(100);
+		AcoesAtletas.metaProximaSemana(100);
+		AcoesAtletas.calcularTempoEstimado(100);
+
 	}
-	
-	
+
 }
