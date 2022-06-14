@@ -12,8 +12,8 @@ public class Maratonas {
 		
 		AcoesAtletas tipoCorrida = new AcoesAtletas();
 		tipoCorrida.maratonaA(100, 80, "Asfalto");
-		
-		
+		tipoCorrida.calcularTempoEstimado(100);
+		tipoCorrida.metaProximaSemana(100);
 		
 		
 		
