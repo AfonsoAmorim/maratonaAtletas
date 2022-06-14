@@ -14,15 +14,16 @@ public class AcoesAtletas {
 		int distanciaMaratona = distancia;
 		int mediaDeTempo = 12;
 		
-		System.out.println("O tempo médio para conclusão do trajeto é: " + distanciaMaratona/mediaDeTempo + "horas"); 
+		System.out.println("O tempo médio para conclusão do trajeto é: " + distanciaMaratona/mediaDeTempo + " horas"); 
 	}
 
 	public void metaProximaSemana(double kmPercorridoHoje) {
 		double novaMeta = kmPercorridoHoje;
 		double novaMetaSemana = novaMeta*0.3+novaMeta;
-		System.out.println("A meta para próxima semana é correr 30% a mais, sendo assim: " + novaMetaSemana);
+		System.out.println("A meta para próxima semana é correr 30% a mais, sendo assim: " + novaMetaSemana + " KM");
 	}
 
+	
 }
 
 

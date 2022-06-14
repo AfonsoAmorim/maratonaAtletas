@@ -8,7 +8,7 @@ public class Atletas {
 
 	public void atletasId(String nome, int idade, int rA) {
 		System.out.println("O nome do atleta é: " + nome);
-		System.out.println("A idade do atleta é: " + idade);
+		System.out.println("A idade do atleta é: " + idade + " anos");
 		System.out.println("O registro do atleta é: " + rA);
 	}
 	
